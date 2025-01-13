@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.vt323-regular {
+    font-family: "VT323", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.manrope-unique1 {
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.meow-gif{
+    height: 150px;
+    width: 150px;
+    border: none;
+    border-radius: 75px;
+}
+.meow-container{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.meow-text{
+    font-family: "Manrope", serif;
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+.text-hover-effect {
+    position: relative; 
+    color: white; 
+    transition: color 0.3s ease; 
+}
+
+.text-hover-effect:hover {
+    color: transparent; 
+}
+
+.text-hover-effect:hover::after {
+    content: 'heramb'; 
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white; 
+}
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meow</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="meow-container">
+        <div>
+            <img id="meow-gif" class="meow-gif" alt="meow">
+        </div>
+        <div class="meow-text">
+            <h1 class="text-hover-effect">froxi</h1>
+            <h3>what?</h3>
+        </div>
+        <div id="gift-for-you">
+            <!-- Hey! If you dare, reload the page... ; ) -->
+        </div>
+    </div>
+</body>
+
+<script>
+    
+    const gifs = [
+        "https://media.tenor.com/fitGu2TwtHoAAAAM/cat-hyppy.gif",
+        "https://media.tenor.com/0eg7MZS_Q_YAAAAM/cat-cats.gif",
+        "https://media.tenor.com/RvFKEEqUpnIAAAAM/deep-sea-creature-sea-creature.gif",
+        "https://media.tenor.com/EkfaefdaRqgAAAAM/luna-cat.gif",
+        "https://media.tenor.com/AjaofTgbA38AAAAM/cat-eyebrow-raise.gif",
+        "https://media.tenor.com/KyTSHBMDmMIAAAAM/cat-crying-cat.gif"
+    ];
+
+    
+    const gifElement = document.getElementById("meow-gif");
+
+    
+    const randomGif = gifs[Math.floor(Math.random() * gifs.length)];
+
+
+    gifElement.src = randomGif;
+</script>
+</html>
