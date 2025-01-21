@@ -1,5 +1,21 @@
+## why built ~
+### Had to build a portfolio website for one of my college semester (S2-CNS)
+
+## Built with :
+- HTML5
+- CSS3
+- Javascript (with some embedded logic for responsive GIFs)
+
+##### make sure to reload website
+
+<hr>
+
 ### Just wanted to ship, so shipped it!
 ##### lfg
+
+
+
+
 
 <picture>
   <source  
